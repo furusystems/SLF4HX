@@ -1,6 +1,6 @@
 package com.furusystems.slf4hx.utils; 
 import com.furusystems.slf4hx.Constants;
-import flash.Lib;
+
 /**
  * ...
  * @author Andreas Rønning
