@@ -2,9 +2,9 @@ package com.furusystems.slf4hx.bindings;
 import com.furusystems.slf4hx.Constants;
 import haxe.Log;
 import haxe.PosInfos;
-import neko.io.File;
-import neko.io.FileOutput;
-import neko.FileSystem;
+import sys.io.File;
+import sys.io.FileOutput;
+import sys.FileSystem;
 
 /**
  * ...
