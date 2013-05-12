@@ -16,9 +16,10 @@ class Logging
 	private static var _appName:String = "Log";
 	private static var _minLevel:LevelType = LevelType.ALL;
 	
-	public static var root(getRoot, null):Logger;
+	public static var root(get_root, null):Logger;
 	public static var logBinding(default, default):ILogBinding;
-        public static var patternType(default, default):PatternType;
+       
+	public static var patternType(default, default):PatternType;
 	public static var level(default, default):Int;
 	private static var initialized:Bool = false;
 	public static function getLogger(tag:Dynamic):Logger {
@@ -46,7 +47,7 @@ class Logging
 	}
 	
 	///getters and setters
-	static private function getRoot():Logger 
+	static private function get_root():Logger 
 	{
 		if (_root == null) {
 			_root = new Logger("Logging");

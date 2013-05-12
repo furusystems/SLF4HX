@@ -2,6 +2,7 @@
     <user name="Decept404"/>
 	<tag v="cross"/>
 	<tag v="logging"/>
-    <description>haXe port of SLF4AS, an open source logging framework.</description>
+    <description>Haxe port of SLF4AS, an open source logging framework.</description>
     <version name="1.0.1">Thanks to Ian Martins: "Got it to compile on neko.  I wrote a FileBinding that writes log files and can rotate like the java and python file loggers.  and I changed the int constants into enums."</version>
+    <version name="1.0.2">Haxe 3 compatibility</version>
 </project>
