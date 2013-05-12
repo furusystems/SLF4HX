@@ -20,7 +20,7 @@ class Logging
 	public static var logBinding(default, default):ILogBinding;
        
 	public static var patternType(default, default):PatternType;
-	public static var level(default, default):Int;
+	public static var level(default, default):LevelType = LevelType.ALL;
 	private static var initialized:Bool = false;
 	public static function getLogger(tag:Dynamic):Logger {
 		if (!initialized) {

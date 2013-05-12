@@ -66,8 +66,8 @@ package com.furusystems.slf4hx.loggers;
 
 		private function log(args:Array<Dynamic>):Void 
 		{
-			var level:Int = args.shift();
-			if (Logging.level > level) return;
+			var level:LevelType = args.shift();
+			if (Logging.level.getIndex() > level.getIndex()) return;
 			var levelStr:String = Std.string(level);
 			var out:String = PatternResolver.resolve(_patternType, args);
 			Logging.print(getTag(), levelStr, out);
