@@ -1,0 +1,11 @@
+{
+	"name": "slf4hx",
+	"url": "http://slf4as.googlecode.com",
+	"license": "Public",
+	"tags": [],
+	"description": "Haxe port of SLF4AS, an open source logging framework",
+	"version": "1.0.3",
+	"releasenote": "Logging level fixes and improved Haxe trace output",
+	"contributors": [ "Sunjammer" ],
+	"dependencies": {}
+}
