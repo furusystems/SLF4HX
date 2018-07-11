@@ -1,6 +1,6 @@
-SLF4HS is a lightweight logging framework based on SLF4J, an abstract logging facade for Java.
+SLF4HX is a lightweight logging framework based on SLF4J, an abstract logging facade for Java.
 
-SLF4HS offers a robust, performant logging API that integrates easily with whatever output solution you have by means of an ILogBinding interface.
+SLF4HX offers a robust, performant logging API that integrates easily with whatever output solution you have by means of an ILogBinding interface.
 
 Note that this is an adaptation rather than a port; The framework differs heavily from SLF4J's architecture
 
